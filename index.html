@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>गोपनीयता नीति तथा कानूनी उद्घोषण | Privacy Policy & Disclosure - Nepal Advocate Assistant</title>
+  <meta name="description" content="Official Privacy Policy, Telemetry Disclosures, and Non-Government Entity Statutory Disclaimer for Nepal Advocate Assistant (NAA).">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --accent-crimson: #dc143c;
+      --accent-blue: #003893;
+      --bg-body: #090e1a;
+      --bg-card: rgba(15, 23, 42, 0.92);
+      --bg-card-subtle: rgba(30, 41, 59, 0.6);
+      --border-color: rgba(255, 255, 255, 0.12);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-highlight: #60a5fa;
+      --warning-bg: rgba(245, 158, 11, 0.12);
+      --warning-border: rgba(245, 158, 11, 0.35);
+      --warning-text: #fbbf24;
+      --badge-bg: rgba(37, 99, 235, 0.16);
+      --badge-border: rgba(37, 99, 235, 0.35);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      font-family: 'Noto Sans Devanagari', 'Mukta', -apple-system, BlinkMacSystemFont, "Segoe UI", "Nirmala UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      padding: clamp(16px, 4vw, 40px) clamp(14px, 3.5vw, 24px);
+      background-image: 
+        radial-gradient(circle at 12% 10%, rgba(37, 99, 235, 0.18) 0%, transparent 40%),
+        radial-gradient(circle at 88% 85%, rgba(220, 20, 60, 0.14) 0%, transparent 45%),
+        linear-gradient(180deg, #090e1a 0%, #0c1427 100%);
+      background-attachment: fixed;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* Top Brand & Language Bar */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .app-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #1e3a8a, #dc143c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .brand-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.2px;
+      line-height: 1.25;
+    }
+
+    .brand-sub {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    .lang-switcher {
+      display: inline-flex;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border-color);
+      border-radius: 9999px;
+      padding: 3px;
+      gap: 3px;
+    }
+
+    .lang-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.4);
+    }
+
+    /* Hero Header */
+    .hero {
+      text-align: center;
+      padding: 24px 16px 32px;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      background: var(--badge-bg);
+      border: 1px solid var(--badge-border);
+      color: #93c5fd;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: clamp(22px, 4.5vw, 32px);
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    .last-updated {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Warning / Critical Disclosure Callout */
+    .statutory-callout {
+      background: var(--warning-bg);
+      border: 1px solid var(--warning-border);
+      border-radius: 16px;
+      padding: 18px 20px;
+      margin: 24px 0 32px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    .callout-icon {
+      font-size: 24px;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .callout-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--warning-text);
+      margin-bottom: 6px;
+      letter-spacing: 0.2px;
+    }
+
+    .callout-text {
+      font-size: 12.5px;
+      color: #fef3c7;
+      line-height: 1.6;
+    }
+
+    /* Content Cards */
+    .section-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: clamp(20px, 3.5vw, 28px);
+      margin-bottom: 22px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .section-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: rgba(37, 99, 235, 0.2);
+      border: 1px solid rgba(96, 165, 250, 0.3);
+      color: #93c5fd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    h2 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.35;
+    }
+
+    p {
+      font-size: 13.5px;
+      color: #cbd5e1;
+      margin-bottom: 14px;
+      line-height: 1.7;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 12px 0 16px 20px;
+      color: #cbd5e1;
+      font-size: 13px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    li strong {
+      color: #ffffff;
+    }
+
+    /* Key Points Highlight Grid */
+    .highlight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .highlight-item {
+      background: var(--bg-card-subtle);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    .highlight-item-title {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--text-highlight);
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .highlight-item-desc {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Developer Bio / Contact Box */
+    .contact-box {
+      background: linear-gradient(135deg, rgba(37, 99, 235, 0.15), rgba(220, 20, 60, 0.12));
+      border: 1px solid rgba(96, 165, 250, 0.35);
+      border-radius: 16px;
+      padding: 20px;
+      margin-top: 16px;
+    }
+
+    .contact-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .contact-info {
+      font-size: 12.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .contact-info a {
+      color: #93c5fd;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 32px 0 16px;
+      border-top: 1px solid var(--border-color);
+      margin-top: 40px;
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    .flag-bar {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+
+    .flag-bar div {
+      width: 28px;
+      height: 4px;
+      border-radius: 9999px;
+    }
+
+    /* Language Toggle Visibility (English static default for crawlers/reviewers; Nepali via .lang-ne) */
+    [data-lang="en"] { display: block; }
+    [data-lang="ne"] { display: none; }
+    body.lang-ne [data-lang="en"] { display: none; }
+    body.lang-ne [data-lang="ne"] { display: block; }
+
+    @media print {
+      body {
+        background: #ffffff;
+        color: #000000;
+        padding: 0;
+      }
+      .section-card {
+        border: 1px solid #ccc;
+        box-shadow: none;
+        page-break-inside: avoid;
+      }
+      .top-bar, .lang-switcher { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Top Brand & Language Bar -->
+    <header class="top-bar">
+      <div class="brand-group">
+        <div class="app-icon">⚖️</div>
+        <div>
+          <div class="brand-title" data-lang="ne">नेपाल अधिवक्ता सहायक</div>
+          <div class="brand-title" data-lang="en">Nepal Advocate Assistant (NAA)</div>
+          <div class="brand-sub" data-lang="ne">कानूनी गोपनीयता नीति तथा कानूनी उद्घोषण</div>
+          <div class="brand-sub" data-lang="en">Privacy Policy & Statutory Disclosures</div>
+        </div>
+      </div>
+      <div class="lang-switcher">
+        <button type="button" class="lang-btn" id="btnNe" onclick="setLanguage('ne')">नेपाली</button>
+        <button type="button" class="lang-btn active" id="btnEn" onclick="setLanguage('en')">English</button>
+      </div>
+    </header>
+
+    <!-- Hero Header -->
+    <div class="hero">
+      <div class="badge-pill">
+        <span>🛡️</span>
+        <span data-lang="ne">गोपनीयता नीति र सुरक्षा मानक</span>
+        <span data-lang="en">Privacy Policy & Transparency Standard</span>
+      </div>
+      <h1 data-lang="ne">गोपनीयता नीति तथा कानूनी उद्घोषण</h1>
+      <h1 data-lang="en">Privacy Policy & Statutory Disclosures</h1>
+      <div class="last-updated" data-lang="ne">पछिल्लो पटक अद्यावधिक गरिएको मिति: २०८३ साल मंसिर ११ गते (November 27, 2026)</div>
+      <div class="last-updated" data-lang="en">Last Updated: November 27, 2026 (B.S. 2083/08/11) • Package: com.satishkunwar.nepalcourts</div>
+    </div>
+
+    <!-- Mandatory Non-Government Entity Statutory Callout -->
+    <div class="statutory-callout">
+      <div class="callout-icon">⚠️</div>
+      <div>
+        <div class="callout-title" data-lang="ne">महत्त्वपूर्ण कानूनी उद्घोषण (गैर-सरकारी कानूनी सफ्टवेयर)</div>
+        <div class="callout-title" data-lang="en">Statutory Disclosure: Independent Non-Government Entity</div>
+        <div class="callout-text" data-lang="ne">
+          <strong>नेपाल अधिवक्ता सहायक (Nepal Advocate Assistant)</strong> नेपालका कानून व्यवसायी तथा अधिवक्ताहरूको कानूनी सहजीकरणका लागि अधिवक्ता सतीश कुँवरद्वारा स्वतन्त्र रूपमा विकास गरिएको सफ्टवेयर हो। यो एप <strong>सर्वोच्च अदालत, नेपाल सरकार वा कुनै सरकारी न्यायिक निकायको आधिकारिक एप होइन</strong> र ती निकायहरूसँग कुनै सम्बद्धता वा प्रतिनिधित्व राख्दैन। सम्पूर्ण न्यायिक सूचनाहरू सरकारी खुला स्रोत (supremecourt.gov.np) बाट लिइएका हुन्।
+          <br><br>
+          <strong>⚠️ कानूनी उद्घोषण (Limitation of Liability):</strong> यस एपको प्रयोगबाट प्राप्त कुनै पनि नतिजा कानूनी रूपमा बाध्यकारी छैन। यो एप केवल जानकारीका लागि मात्र प्रयोग गर्नुहोस्, यसमाथि निर्भर नहुनुहोस्। केवल प्रमाणित आधिकारिक स्रोतबाट मात्र रुजु गर्नुहोस्।
+        </div>
+        <div class="callout-text" data-lang="en">
+          <strong>Nepal Advocate Assistant (NAA)</strong> is an independent professional legal utility developed by Advocate Satish Kunwar to assist legal practitioners and citizens. <strong>This application is NOT affiliated with, authorized by, endorsed by, or in any way representing the Supreme Court of Nepal or the Government of Nepal.</strong> All judicial portal links and causelist displays connect directly to official publicly accessible judicial domains (supremecourt.gov.np).
+          <br><br>
+          <strong>⚠️ Mandatory Legal Disclaimer:</strong> Any outcome solely using this app is not legally bound. Use this app for information only, don't depend on it. Verify from verified sources only.
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 1: Overview & Scope -->
+    <section class="section-card">
+      <div class="section-header">
+        <div class="section-num">१</div>
+        <h2 data-lang="ne">१. पृष्ठभूमि तथा क्षेत्र (Scope & Purpose)</h2>
+        <h2 data-lang="en">1. Scope & Objective</h2>
+      </div>
+      <p data-lang="ne">
+        नेपाल अधिवक्ता सहायक (NAA) कानून व्यवसायी, अधिवक्ता, कानूनका विद्यार्थी तथा सेवाग्राहीहरूलाई अदालती दस्तुर (मुलुकी देवानी कार्यविधि संहिता २०७४ दफा ६९), १०% साधारण ब्याज (मुलुकी देवानी संहिता २०७४ दफा ४७८), नेपालभरका १०० अदालतहरूको सम्पर्क र दैनिक पेसी सूची तथा मुद्दाको फैसला पूर्णपाठ हेर्न सहज बनाउने उद्देश्यले निर्माण गरिएको स्वतन्त्र कानूनी सफ्टवेयर हो।
+      </p>
+      <p data-lang="en">
+        Nepal Advocate Assistant (NAA) is an independent utility designed to streamline statutory computations—including court fees under Section 69 of the Civil Procedure Code 2074, simple interest calculations under Section 478 of the National Civil Code 2074, and portal directory links across Nepal's judiciary.
+      </p>
+      
+      <div class="highlight-grid">
+        <div class="highlight-item">
+          <div class="highlight-item-title"><span>🔒</span> <span data-lang="ne">स्थानीय डिभाइस गणना</span><span data-lang="en">Client-Side Statutory Math</span></div>
+          <div class="highlight-item-desc" data-lang="ne">दस्तुर, ब्याज र पात्रो गणना उपकरणमै हुन्छन्; लाइभ पेसी तथा पोर्टल इन्टरनेटबाट लोड हुन्छन्।</div>
+          <div class="highlight-item-desc" data-lang="en">Statutory calculators and Patro run locally on-device; live causelists and portals load online.</div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-item-title"><span>🚫</span> <span data-lang="ne">कुनै व्यक्तिगत डाटा छैन</span><span data-lang="en">No Personal Identifiers</span></div>
+          <div class="highlight-item-desc" data-lang="ne">फोन बुक, फोटो, क्यामेरा वा स्थानको अनुमति मागिँदैन।</div>
+          <div class="highlight-item-desc" data-lang="en">No access to contacts, photos, camera, or device GPS location is requested.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Data Collection Principles -->
+    <section class="section-card">
+      <div class="section-header">
+        <div class="section-num">२</div>
+        <h2 data-lang="ne">२. तथ्याङ्क सङ्कलन तथा प्रशोधन (Data Collection & Processing)</h2>
+        <h2 data-lang="en">2. Data Collection & Processing Principles</h2>
+      </div>
+      <p data-lang="ne">हाम्रो एपले प्रयोगकर्ताको गोपनीयतालाई सर्वोच्च प्राथमिकता दिन्छ। हामी निम्न सिद्धान्तहरू पालना गर्दछौं:</p>
+      <p data-lang="en">Our application strictly adheres to the principle of data minimization:</p>
+      <ul>
+        <li data-lang="ne"><strong>संवेदनशील व्यक्तिगत जानकारी:</strong> एपले तपाईंको नाम, फोन नम्बर, पासवर्ड, वा बैङ्क विवरण सङ्कलन गर्दैन।</li>
+        <li data-lang="en"><strong>Sensitive Personal Information:</strong> We do NOT collect your name, phone number, passwords, banking credentials, or private legal case files.</li>
+        <li data-lang="ne"><strong>उपकरण अनुमतिहरू (Permissions):</strong> एप चल्नका लागि क्यामेरा, माइक्रोफोन, कन्ट्याक्ट लिस्ट (Contacts), वा ग्यालरीको कुनै अनुमति आवश्यक पर्दैन। इन्टरनेट (अदालती पोर्टल तथा अनलाइन मुद्दा स्थिति हेर्न) र वैकल्पिक स्थानीय सूचना (तारेख सम्झनाका लागि) मात्र प्रयोग हुन्छ।</li>
+        <li data-lang="en"><strong>Device Permissions:</strong> The app does NOT request Camera, Microphone, Contacts, Photos, or GPS Location permissions. Only Internet access (for live causelists and portals) and optional Notifications (for user-saved court hearing/Tarekh reminders) are used.</li>
+        <li data-lang="ne"><strong>फिरादपत्र तथा दावी बिगो:</strong> क्यालकुलेटरमा प्रविष्ट गरिएको बिगो वा ब्याज रकम विकासकर्ताको सर्भरमा कहिल्यै भण्डारण हुँदैन।</li>
+        <li data-lang="en"><strong>Calculation Inputs &amp; Cloud Sync:</strong> Claim amounts entered in calculators run locally on-device. If you enable optional Google Drive backup, your saved cases sync directly to your own private Google Drive account—never to developer servers.</li>
+      </ul>
+    </section>
+
+    <!-- Section 3: Telemetry & Analytics -->
+    <section class="section-card">
+      <div class="section-header">
+        <div class="section-num">३</div>
+        <h2 data-lang="ne">३. टेलिमेट्री, एनालिटिक्स तथा त्रुटि निदान (Analytics & Diagnostics)</h2>
+        <h2 data-lang="en">3. Telemetry, Analytics & Diagnostic Tools</h2>
+      </div>
+      <p data-lang="ne">
+        एपको प्राविधिक स्थिरता, क्र्यास (Crash) रोकथाम, र कुन मोड्युलहरू बढी उपयोगी छन् भनी बुझ्नका लागि हामी उद्योग-मानक विश्लेषणात्मक उपकरणहरू प्रयोग गर्दछौं:
+      </p>
+      <p data-lang="en">
+        To maintain application stability, prevent crashes, and evaluate feature performance across different device form factors, we utilize industry-standard analytics tools:
+      </p>
+      <ul>
+        <li data-lang="ne">
+          <strong>Google Analytics ४ (GA4), Firebase Analytics र Google Tag Manager (GTM-M3WNBNP4):</strong> प्रयोगकर्ताको अज्ञात (Anonymous) अन्तरक्रिया, जस्तै कुन ट्याब खोलियो, क्र्यास लग र प्राविधिक स्थिरता विश्लेषणका लागि मात्र प्रयोग गरिन्छ (कुनै विज्ञापन वा व्यक्तिगत पहिचानका लागि होइन)।
+        </li>
+        <li data-lang="en">
+          <strong>Google Analytics 4, Firebase Analytics & Google Tag Manager (GTM-M3WNBNP4):</strong> Collects anonymous aggregated telemetry such as screen views, calculation mode triggers, crash diagnostics, and Android Advertising ID strictly for analytics and stability (never for personalized ads).
+        </li>
+        <li data-lang="ne">
+          <strong>माइक्रोसफ्ट क्लारिटी (Microsoft Clarity - z3qly7usw7):</strong> प्रयोगकर्ताहरूको समग्र अन्तरक्रिया, स्क्रोल ढाँचा, तथा यूआई बग पत्ता लगाउनका लागि अज्ञात सत्र डेटा प्रशोधन गरिन्छ। संवेदनशील पाठ तथा अंकहरू स्वचालित रूपमा मास्क गरिएका हुन्छन्।
+        </li>
+        <li data-lang="en">
+          <strong>Microsoft Clarity (Project ID: z3qly7usw7):</strong> Analyzes aggregated user interaction patterns, scroll behaviors, and responsive layout anomalies. Sensitive text inputs are masked to safeguard confidentiality.
+        </li>
+        <li data-lang="ne">
+          <strong>डाटा भण्डारण र मेटाउने अधिकार (Retention & Deletion):</strong> विकासकर्ताको निजी सर्भरमा प्रयोगकर्ताको खाता वा मुद्दा विवरण सङ्कलन गरिँदैन। डिभाइसमा सुरक्षित मुद्दा तथा प्राथमिकताहरू प्रयोगकर्ताले एप भित्रैबाट, डिभाइस सेटिङ (Clear App Data) मार्फत, वा एप अनइन्स्टल गरेर तुरुन्त मेटाउन सक्नुहुन्छ। ऐच्छिक गुगल ड्राइभ ब्याकअप तपाईंको निजी गुगल ड्राइभबाट सीधा मेटाउन सकिन्छ।
+        </li>
+        <li data-lang="en">
+          <strong>Data Retention & Deletion:</strong> No user accounts exist and no personal case records are stored on developer servers. Users can delete locally stored cases and preferences anytime inside the app, via Android App Settings (Clear Data), or by uninstalling the app. Optional Google Drive backups remain solely in your personal Google Drive account and can be deleted there anytime.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Section 4: LocalStorage & Preferences -->
+    <section class="section-card">
+      <div class="section-header">
+        <div class="section-num">४</div>
+        <h2 data-lang="ne">४. स्थानीय भण्डारण तथा कुकीज (Local Storage & Cookies)</h2>
+        <h2 data-lang="en">4. Local Storage & Preferences</h2>
+      </div>
+      <p data-lang="ne">
+        एपले तपाईंको सहजताका लागि उपकरणको <code>LocalStorage</code> मा निम्न सीमित प्राथमिकताहरू मात्र सुरक्षित गर्दछ:
+      </p>
+      <p data-lang="en">
+        The application stores purely non-identifiable user preferences locally in your browser/device <code>LocalStorage</code>:
+      </p>
+      <ul>
+        <li data-lang="ne"><strong>भाषा प्राथमिकता:</strong> नेपाली वा अङ्ग्रेजी (Nepali / English) चयन।</li>
+        <li data-lang="en"><strong>Language Choice:</strong> Your preferred interface language (Nepali or English).</li>
+        <li data-lang="ne"><strong>रङ ढाँचा (Theme):</strong> डार्क मोड (Dark Mode) वा लाइट मोड (Light Mode)।</li>
+        <li data-lang="en"><strong>Visual Theme:</strong> System, Light, or Dark Mode preferences.</li>
+        <li data-lang="ne"><strong>बुकमार्क गरिएका अदालतहरू:</strong> प्रयोगकर्ताले बारम्बार हेर्ने अदालतहरूको व्यक्तिगत सूची।</li>
+        <li data-lang="en"><strong>Bookmarked Courts:</strong> Quick-access shortcuts to frequently checked courts.</li>
+      </ul>
+    </section>
+
+    <!-- Section 5: Third-Party Government Links -->
+    <section class="section-card">
+      <div class="section-header">
+        <div class="section-num">५</div>
+        <h2 data-lang="ne">५. सरकारी न्यायिक पोर्टल लिङ्कहरू (Official Government Portals)</h2>
+        <h2 data-lang="en">5. Official Government Portals & In-App Browsing</h2>
+      </div>
+      <p data-lang="ne">
+        नेपाल अधिवक्ता सहायकले नेपाल सरकारका आधिकारिक न्यायिक वेबसाइटहरू सिधै खोल्ने सुविधा प्रदान गर्दछ:
+      </p>
+      <p data-lang="en">
+        Nepal Advocate Assistant provides integrated access to authentic government judicial portals:
+      </p>
+      <ul>
+        <li><strong>सर्वोच्च अदालत नेपाल (Supreme Court of Nepal):</strong> <a href="https://supremecourt.gov.np" target="_blank" rel="noopener noreferrer">https://supremecourt.gov.np</a></li>
+        <li><strong>प्रशासकीय अदालत (Administrative Court):</strong> <a href="https://admincourt.gov.np" target="_blank" rel="noopener noreferrer">https://admincourt.gov.np</a></li>
+        <li><strong>नेपाल कानून आयोग (Nepal Law Commission):</strong> <a href="https://lawcommission.gov.np" target="_blank" rel="noopener noreferrer">https://lawcommission.gov.np</a></li>
+      </ul>
+      <p data-lang="ne">
+        जब तपाईं सरकारी पोर्टल खोल्नुहुन्छ, ती साइटहरूमा नेपाल सरकारको आधिकारिक गोपनीयता नीति लागू हुन्छ। कुनै पनि मुद्दाको प्रमाणित आधिकारिक प्रतिलिपि सम्बन्धित अदालतको स्रेस्ता शाखाबाट मात्र प्राप्त गर्न सकिन्छ।
+      </p>
+      <p data-lang="en">
+        When browsing authentic government judicial portals within the in-app frame, their respective government privacy policies govern the displayed records. Certified true copies of official judgments and orders must be requisitioned formally from the respective court registry.
+      </p>
+    </section>
+
+    <!-- Section 6: Developer Contact & Redressal -->
+    <section class="section-card">
+      <div class="section-header">
+        <div class="section-num">६</div>
+        <h2 data-lang="ne">६. विकासकर्ता पहिचान तथा गुनासो सुनुवाइ (Developer & Contact)</h2>
+        <h2 data-lang="en">6. Developer Identity & Redressal Contact</h2>
+      </div>
+      <p data-lang="ne">
+        यस सफ्टवेयरको गोपनीयता नीति वा कार्यप्रणाली सम्बन्धी कुनै सुझाव, जिज्ञासा वा प्रश्न भएमा विकासकर्तासँग सिधा सम्पर्क गर्न सक्नुहुन्छ:
+      </p>
+      <p data-lang="en">
+        For inquiries, feedback, or data privacy queries regarding this application, please reach out directly:
+      </p>
+      
+      <div class="contact-box">
+        <div class="contact-title" data-lang="ne">अधिवक्ता सतीश कुँवर (Advocate Satish Kunwar)</div>
+        <div class="contact-title" data-lang="en">Advocate Satish Kunwar (Creator & Author)</div>
+        <div class="contact-info">
+          <div>⚖️ <strong><span data-lang="ne">पेशा:</span><span data-lang="en">Profession:</span></strong> <span data-lang="ne">अधिवक्ता, नेपाल कानून व्यवसायी परिषद्</span><span data-lang="en">Advocate, Nepal Bar Council</span></div>
+          <div>🌐 <strong><span data-lang="ne">वेबसाइट:</span><span data-lang="en">Website:</span></strong> <a href="https://satishkunwar.com.np" target="_blank" rel="noopener noreferrer">https://satishkunwar.com.np</a></div>
+          <div>✉️ <strong><span data-lang="ne">सम्पर्क तथा सहयोग:</span><span data-lang="en">Support & Inquiries:</span></strong> <a href="https://satishkunwar.com.np/contact" target="_blank" rel="noopener noreferrer">https://satishkunwar.com.np/contact</a></div>
+          <div>📍 <strong><span data-lang="ne">ठेगाना:</span><span data-lang="en">Location:</span></strong> <span data-lang="ne">नेपाल</span><span data-lang="en">Nepal</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="flag-bar">
+        <div style="background-color: var(--accent-crimson);"></div>
+        <div style="background-color: var(--accent-blue);"></div>
+        <div style="background-color: #c8952a;"></div>
+      </div>
+      <p data-lang="ne">
+        &copy; २०२६ नेपाल अधिवक्ता सहायक (NAA)। सर्वाधिकार सुरक्षित। अधिवक्ता सतीश कुँवरद्वारा न्याय क्षेत्रको डिजिटल सशक्तिकरणका लागि समर्पित।
+      </p>
+      <p data-lang="en">
+        &copy; 2026 Nepal Advocate Assistant (NAA). All Rights Reserved. Authored by Advocate Satish Kunwar for the legal fraternity of Nepal.
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    function setLanguage(lang) {
+      if (lang === 'ne') {
+        document.body.classList.add('lang-ne');
+        document.documentElement.lang = 'ne';
+        document.getElementById('btnNe').classList.add('active');
+        document.getElementById('btnEn').classList.remove('active');
+      } else {
+        document.body.classList.remove('lang-ne');
+        document.documentElement.lang = 'en';
+        document.getElementById('btnEn').classList.add('active');
+        document.getElementById('btnNe').classList.remove('active');
+      }
+      try {
+        localStorage.setItem('nca_privacy_lang', lang);
+      } catch (e) {}
+    }
+
+    // Default to English for Google Play / global browsers unless Nepali requested or browser locale is ne
+    (function initLang() {
+      var params = new URLSearchParams(window.location.search);
+      var queryLang = params.get('lang');
+      var storedLang = '';
+      try {
+        storedLang = localStorage.getItem('nca_privacy_lang') || '';
+      } catch(e) {}
+      var browserIsNe = (navigator.language || '').toLowerCase().indexOf('ne') === 0;
+      var finalLang = queryLang || storedLang || (browserIsNe ? 'ne' : 'en');
+      setLanguage(finalLang === 'ne' ? 'ne' : 'en');
+    })();
+  </script>
+</body>
+</html>
